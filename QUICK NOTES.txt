@@ -1,0 +1,57 @@
+Bot collects daily updates through slack
+
+Info to be collected: 
+- accomplishments since last standup
+- plans for today
+- any blockers/ challenges currently faced
+
+
+Task - 1
+--BASE
+- Ask user about info, can be in free form
+- Ask follow up if vague
+- 3 criteria filled ( accomplishment, plan, blocker)
+- Identify writing style of user
+-- ADDITIONAL
+- Memory of previous chat
+- Follow up on yesterdays work
+- Check on previous blockers
+- Identify recurring blockers for potential escalation
+- Identify issues that require manager
+- Adapt questions based on users Ans pattern
+- Remember if user provides GitHub drafts or free flow
+
+Task - 2
+-- BASE
+- Auto-draft updates using GitHub api
+- Draft updates using previous 24 hours of the user GitHub ( commits, pr, etc)
+- Allow user to modify drafted content
+-- ADDITIONAL
+- Use linear to break down tasks and subtasks
+- Combine GitHub and linear
+
+Task - 3
+-- BASE
+- Slack or web interface
+- Daily notification for updates
+- Collect updates for a specific date
+-- ADDITIONAL
+- Build both, slack and web
+- Organize daily updates in threads/ conversations
+
+
+
+TO LEARN
+- Draft update, GitHub draft pr, what and how
+- Slack bot
+- integrating slack with custom ai chatbot (Multi agent with history)
+- Crew AI
+- MS AutoGen
+- OpenAI Swarm
+- Slack Bolt SDK
+
+TODO
+- Finish: TO LEARN
+- Draft action plan
+- Comprehensive DB design (Draft)
+- https://github.com/langchain-ai/langchain/blob/master/docs/docs/integrations/tools/slack.ipynb
